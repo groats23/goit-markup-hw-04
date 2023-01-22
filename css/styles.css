@@ -457,8 +457,8 @@ img {
   border: 1px solid var(--button-hover-color);
 }
 
-.customers-icon:hover,
-.customers-icon:focus {
+.customers-list-link:hover .customers-icon,
+.customers-list-link:focus .customers-icon {
   fill: var(--button-hover-color);
 }
 
@@ -516,7 +516,8 @@ img {
 .content-item:focus {
   background: #ffffff;
 
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* ==================== /Content portfolio ==================== */
@@ -604,35 +605,3 @@ img {
   font-size: 16px;
   line-height: 1.5;
 }
-
-/* ==================== /footer ==================== */
-
-/* ==================== Colors ==================== */
-
-/* Body text (Text, SLATE) #434455 */
-
-/* CTAs Focused Active states Links (Primary Brand, Iris) #4D5AE5 */
-
-/* CTAs (Pressed state, OCEAN) #404BBF */
-
-/* Overlays Shadows Headings (Dark, Navy blue) #2E2F42 */
-
-/* Valid fields Success messages (Success, GREEN #31D0AA) */
-
-/* Helper text Deemphasized text (Subtle Text, LIGHT SLATE) #8E8F99 */
-
-/* Accent color Hairlines Subtle backgrounds (Accent, cornflower #E7E9FC) */
-
-/*  Light mode backgrounds Light mode Dialogs/alerts (Light, CLOUD) #F4F4FD */
-
-/*  Overlay (Modal overlay, NAVY BLUE modal) #2E2F42 */
-
-/*  Hero image background (Hero background, GREY) 2E2F42 */
-
-/* White #FFFFFF */
-
-/* Основной цвет фона #E5E5E5 */
-
-/* Styles for index.html */
-
-/* ==================== /Colors ==================== */
